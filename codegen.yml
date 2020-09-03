@@ -1,0 +1,8 @@
+schema: schema.graphql
+operation: schema.graphql
+generates:
+  composition-functions.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-vue-apollo

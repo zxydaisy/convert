@@ -1,0 +1,27 @@
+{
+  "name": "swaggertoschema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generator": "graphql-codegen --config codegen.yml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-codegen/typescript-vue-apollo": "^2.0.0",
+    "graphql": "^15.3.0",
+    "typescript": "^4.0.2",
+    "vue-apollo": "^3.0.4"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.17.8",
+    "@graphql-codegen/introspection": "1.17.8",
+    "@graphql-codegen/typescript": "^1.17.8",
+    "@graphql-codegen/typescript-apollo-angular": "1.17.8",
+    "@graphql-codegen/typescript-operations": "^1.17.8",
+    "@graphql-codegen/typescript-react-apollo": "1.17.8",
+    "@graphql-codegen/typescript-stencil-apollo": "1.17.8"
+  }
+}
